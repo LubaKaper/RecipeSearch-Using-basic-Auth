@@ -15,5 +15,5 @@ enum AppError: Error {
   case noData
   case decodingError(Error)
   case badStatusCode(Int) // 404, 500
-  case badMimeType(String) // image/jpg
+  case badMimeType(String)   // image/jpg
 }
